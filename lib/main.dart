@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gradients/gradients.dart';
 
 void main() {
   runApp(const LoginGrey());
@@ -11,6 +10,7 @@ class LoginGrey extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Container(
           decoration: const BoxDecoration(
